@@ -8,5 +8,7 @@ let ProfilePicture = document.createElement("img");
 ProfilePicture.classList.add("header_items");
 ProfilePicture.classList.add("profile_picture");
 ProfilePicture.src = "..\\images\\profile_picture.png";
+ProfilePicture.height = "200px";
+ProfilePicture.width = "200px";
 Header.appendChild(ProfilePicture);
 document.body.appendChild(MainContainer);
