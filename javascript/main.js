@@ -1,1 +1,12 @@
-console.log("TEST");
+let MainContainer = document.createElement("div");
+MainContainer.classList.add("main_container");
+let Header = document.createElement("div");
+Header.classList.add("main_items");
+Header.classList.add("header");
+MainContainer.appendChild(Header);
+let ProfilePicture = document.createElement("img");
+ProfilePicture.classList.add("header_items");
+ProfilePicture.classList.add("profile_picture");
+ProfilePicture.src = "..\\images\\profile_picture.png";
+Header.appendChild(ProfilePicture);
+document.body.appendChild(MainContainer);
